@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestProjectMecalux
+namespace TestProjectMecalux.Interface
 {
-    public class Class1
+    public interface ITextMethods : IMethod1, IMethod2
     {
     }
 }
